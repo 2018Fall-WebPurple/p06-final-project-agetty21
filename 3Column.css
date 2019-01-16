@@ -1,0 +1,93 @@
+/*
+* Anna Getty
+* January 18, 2018
+* Final Project 
+*/
+
+/*Below I have creatd a CSS for my HTML for my Final Project. I talk about Mihcelle Obama's influencial movements she did. I have five main sections one is the header, footer, main section, sidebar A, and sidebar B. This all contain content talking about her. I made my web page fluid so I can adjust the sizes of the sections. */ 
+/* The universal selector */
+
+*{ margin: 0; padding: 0;
+
+} 
+
+/* width of page */
+
+body {
+    width: 1000px;
+    background-color: white;
+    margin: auto;
+    /* This makes all the margins the same size and can addjusted if you set them to a certain size.*/]
+    border: 1px solid black;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;  
+}
+
+h2{
+    padding: 10px;
+    text-align: left;
+}
+
+header {
+    border-bottom: 2px solid #ef9c00;
+    background-color: indianred;
+    /*This is the same color for the footer also. */
+}
+
+#sidebarA {
+    width: 180px;
+    height: 520px;
+    float: left;
+    border-right: 2px solid #ef9c00;
+    text-align: center;/*This makes all the text inside of the sidebar A then it is all centered .*/
+    background-color: lightblue;
+}
+
+#Lady {width: 110px; height: 150px; float: left; padding: 0px; border: 1px solid black;
+margin: 20px;}
+
+#Wave {width: 150px; height: 122px; float: left;/*This puts the picture on the left side of the cention. */
+padding: 0px; border: 1px solid black;
+margin: 20px;}
+
+main{
+    height: 520px;
+    float: left;
+   background-color: lightblue;
+    width: 59%;
+    /* my making the width 59% I was able to get rid of the space of white that was showing up since my main section wasn't big enough for all of its content. */
+}
+
+#sidebarB {
+    width: 220px;
+    height: 520px;    
+    float: left;
+    border-left: 2px solid #ef9c00;
+    text-align: center;/*centers everything inside*/
+    background-color: lightblue;
+    padding-right: 6px;
+}
+
+footer {
+    clear: both;
+    border-top: 2px solid #ef9c00;/* This makes the plines separting each section in an orange line. */
+    background-color: indianred;
+    padding-bottom: 2px;
+}
+
+p { margin-bottom: 8px;
+margin-left: 10px;
+margin-right: 8px;}
+
+h5 { margin-left: 8px;
+margin-right: 8px;}
+b {margin-left: 25px;}
+
+#Jump { width: 125px; height: 80px;
+border: 1px solid black;/* makes the photo have a black bottom on the outside of it. */
+margin-bottom: 10px;}
+
+h6 {float: right;}/*This places all of the words that are under the h6 in the right side of the page. */
